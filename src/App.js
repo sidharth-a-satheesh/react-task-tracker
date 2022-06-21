@@ -1,7 +1,10 @@
-function App() {
+import Header from "./components/Header";
+
+function App({title}) {
+
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <div className="container">
+      <Header />
     </div>
   );
 }
